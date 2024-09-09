@@ -9,7 +9,9 @@ import computer from '../assets/computer.png'
 const About = () => {
   return (
     <div className='max-w-[1200px] mx-auto' id="about">
-        <h1 className='text'>About Me</h1>
+        <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4'>
+            About <span className='text-orange-400'>Me</span>
+        </h1>
         <div className='grid grid-cols-8 gap-6 place-items-center'>
 
             <div className='w-full col-span-5 relative bg-white/10 backdrop-blur-lg border-white/20 rounded-xl overflow-hidden'>
