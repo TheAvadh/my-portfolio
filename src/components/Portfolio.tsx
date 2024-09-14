@@ -32,7 +32,7 @@ const Portfolio = () => {
                 Selected <span className='text-orange-400'>Projects</span>
             </h1>
 
-            <div className='max-w-[1200px] mx-auto space-y-24'>
+            <div className=' px-6 md:px-0 max-w-[1000px] mx-auto space-y-24'>
                 {projects.map((project, index) => (
                     <motion.div
                         key={index}
@@ -40,7 +40,7 @@ const Portfolio = () => {
                         whileInView={{opacity: 1, y: 0}}
                         viewport={{once: true}}
                         transition={{duration: 0.5, delay: 0.25}}
-                        className={`flex ${index % 2 === 1 ? "flex-col-reverse md:flex-row-reverse gap-12" : "flex-col md:flex-row gap-12"}`}
+                        className={`mt-12 flex flex-col ${index % 2 === 1 ? " md:flex-row-reverse gap-12" : " md:flex-row gap-12"}`}
                     >
                         <div className='space-y-2 max-w-[550px]'>
 
@@ -55,7 +55,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                         <div className='flex justify-center items-center'>
-                            <Image src={project.src} alt={project.title} className='h-[400px] w-auto object-cover'/>
+                            <Image src={project.src} alt={project.title} className='h-[350px] w-[500px] object-cover rounded-lg border-gray-700'/>
                         </div>
                     </motion.div>
                 ))}

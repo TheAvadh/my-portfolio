@@ -23,7 +23,7 @@ const Hero = () => {
             </div>
 
             <motion.div
-                className="absolute left-[280px] top-[140px]"
+                className="absolute left-[280px] top-[140px] hidden sm:hidden md:hidden lg:block"
                 animate={{ y: [0, 5, 0] }}  // Vertical movement
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} // Smooth continuous animation
             >
@@ -38,7 +38,7 @@ const Hero = () => {
             </motion.div>
 
             <motion.div
-                className="absolute right-[220px] top-[160px] opacity-75"
+                className="absolute right-[220px] top-[160px] opacity-75 hidden sm:hidden md:hidden lg:block"
                 animate={{ y: [0, 5, 0] }}  // Vertical movement
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} // Smooth continuous animation
             >
@@ -53,7 +53,7 @@ const Hero = () => {
             </motion.div>
 
             <motion.div
-                className="absolute left-[400px] top-[10px] opacity-75"
+                className="absolute left-[400px] top-[10px] opacity-75 hidden sm:hidden md:hidden lg:block"
                 animate={{ y: [0, 5, 0] }}  // Vertical movement
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} // Smooth continuous animation
             >
@@ -68,7 +68,7 @@ const Hero = () => {
             </motion.div>
 
             <motion.div
-                className="absolute right-[350px] top-[10px] opacity-75"
+                className="absolute right-[350px] top-[10px] opacity-75 hidden sm:hidden md:hidden lg:block"
                 animate={{ y: [0, 5, 0] }}  // Vertical movement
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} // Smooth continuous animation
             >
@@ -83,7 +83,7 @@ const Hero = () => {
             </motion.div>
 
             <motion.div
-                className="absolute left-[400px] top-[350px] opacity-75"
+                className="absolute left-[400px] top-[350px] opacity-75 hidden sm:hidden md:hidden lg:block"
                 animate={{ y: [0, 5, 0] }}  // Vertical movement
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} // Smooth continuous animation
             >
@@ -98,7 +98,7 @@ const Hero = () => {
             </motion.div>
 
             <motion.div
-                className="absolute right-[400px] top-[350px] opacity-75"
+                className="absolute right-[400px] top-[350px] opacity-75 hidden sm:hidden md:hidden lg:block"
                 animate={{ y: [0, 5, 0] }}  // Vertical movement
                 transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }} // Smooth continuous animation
             >
@@ -112,7 +112,7 @@ const Hero = () => {
                 
             </motion.div>
 
-            <p className="text-center text-2xl max-w-[600px] mx-auto mt-8 text-white/80">
+            <p className="text-center text-2xl max-w-[600px] mx-auto mt-8 text-white/80 hidden sm:hidden md:hidden lg:block">
             I'm a full-stack developer and cloud enthusiast, transforming innovative ideas into impactful solutions for the global users.
             </p>
 
