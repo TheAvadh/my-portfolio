@@ -113,7 +113,7 @@ const Hero = () => {
             </motion.div>
 
             <p className="text-center text-2xl max-w-[600px] mx-auto mt-8 text-white/80 hidden sm:hidden md:hidden lg:block">
-            I'm a full-stack developer and cloud enthusiast, transforming innovative ideas into impactful solutions for the global users.
+              I&apos;m a full-stack developer and cloud enthusiast, transforming innovative ideas into impactful solutions for the global users.
             </p>
 
             <Image
