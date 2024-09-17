@@ -53,7 +53,7 @@ const About = () => {
                     <Image src={computer} alt="computer" className="w-auto h-[130px]"/>
                     <div className='flex flex-col mt-2 ml-6'>
                         <h2 className='text-xl font-bold text-white'>Technical Skills</h2>
-                        <p className='text-lg text-white/70 mt-2'>I am expert in Sprin Boot, React, .Net, Node, NextJS and Cloud Technologies like AWS service, GCP, K8s, Docker, Terraform along with other SD technologies like CI/CD and Git.</p>
+                        <p className='text-lg text-white/70 mt-2'>I am expert in Spring Boot, React, .Net, Node, NextJS and Cloud Technologies like AWS service, GCP, K8s, Docker, Terraform along with other SD technologies like CI/CD and Git.</p>
                     </div>
                 </div>
             </div>

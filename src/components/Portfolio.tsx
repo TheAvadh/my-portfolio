@@ -28,7 +28,7 @@ const Portfolio = () => {
     return (
         <div className="text-white bg-gradient-to-b from-black to-[#381a5f] py-18 mt-52" id="portfolio">
 
-            <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4'>
+            <h1 className='text-white text-6xl max-w-[320px] mx-auto font-semibold p-4 mb-4 sm: align-cen'>
                 Selected <span className='text-orange-400'>Projects</span>
             </h1>
 
