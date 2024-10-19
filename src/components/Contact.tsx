@@ -23,7 +23,7 @@ const Contact = () => {
                 </li>
                 <li className='flex items-center'>
                     <Image src = {linkedin} alt= "Email" className='h-[110px] w-auto mr-6'/>
-                    <a href={"https://www.linkedin.com/in/avadh-rakholiya-b758a0201/</li>"} className='text-xl'>Avadh</a>
+                    <a href={"https://www.linkedin.com/in/avadh-rakholiya-b758a0201/"} className='text-xl'>Avadh</a>
                 </li>
             </ul>
         </div>
