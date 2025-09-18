@@ -99,7 +99,7 @@ const Contact = () => {
           <li className="flex items-center">
             <a href={"https://www.linkedin.com/in/avadh-rakholiya-b758a0201/"} className="flex items-center space-x-4">
               <Image src={linkedin} alt="LinkedIn" className="h-[110px] w-auto" />
-              <span className="text-xl whitespace-nowrap">Krupa Patel</span>
+              <span className="text-xl whitespace-nowrap">Avadh Rakholiya</span>
             </a>
           </li>
         </ul>
